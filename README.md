@@ -1,7 +1,7 @@
 # CSP-451 GitHub Actions Seed Repo
 
-![CI](https://github.com/pisces1897/CSP-451-CheckPoint3/actions/workflows/ci.yml/badge.svg?branch=main&cb=1)
-![CodeQL](https://github.com/pisces1897/CSP-451-CheckPoint3/actions/workflows/codeql.yml/badge.svg?branch=main&cb=1)
+![CI](../../actions/workflows/ci.yml/badge.svg?branch=main)
+![CodeQL](../../actions/workflows/codeql.yml/badge.svg?branch=main)
 
 Seed repository for the GitHub Actions CI/CD CheckPoint in CSP-451 — Computer Systems
 Projects. The pipeline lints, formats, tests with coverage thresholds, runs `npm audit`,
