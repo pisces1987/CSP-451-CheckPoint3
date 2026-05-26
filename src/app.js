@@ -6,7 +6,14 @@ app.get("/", (req, res) => {
   res.json({ status: "ok", message: "Hello from CSP-451" });
 });
 
-app.get("/health", (req, res) => { res.json({ status: "healthy", uptime: process.uptime(), extra: "this string is deliberately written out to be exceptionally long to crash the prettier layout constraints check in the pipeline" }); });
+app.get("/health", (req, res) => {
+  res.json({
+    status: "healthy",
+    uptime: process.uptime(),
+    extra:
+      "this string is deliberately written out to be exceptionally long to crash the prettier layout constraints check in the pipeline",
+  });
+});
 
 module.exports = app;
 
